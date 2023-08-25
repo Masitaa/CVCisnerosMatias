@@ -1,20 +1,25 @@
-
+/*tema claro*/
+body{
+    background-color: #ffead1;;
+}
 .fuente1 {
     font-family: Arial;
     text-align: center;
+    color: black;
 }
 .fuente2 {
     font-family: Franklin Gothic Medium;
+    color: black;
 }
 .centrar {
     text-align: center;
     font-family: Franklin Gothic Medium;
+    color: black;
 }
-body {background-color: #ffead1;;
-}
+
 .imagencircular {
-    width: 250px;
-    height: 250px;
+    width: 220px;
+    height: 220px;
     border-radius: 50%;
     object-fit: cover;
     display: block;
@@ -28,4 +33,13 @@ a {
 }
 a:hover {
     color: #f54e11;
+}
+.fuentelorem {
+    font-family: Segoe UI; 
+    font-size:small;
+    color: black;
+}
+/*tema oscuro*/
+body.modonoche{
+    background-color: #000000;;
 }

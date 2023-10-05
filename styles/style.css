@@ -23,12 +23,6 @@ header {
     line-height: 20px; 
     }
 
-@media (max-width: 768px) {
-    #menu {
-
-    }
-}
-
 #encabezado1 {
     width: 664px;
     height: 50px;
@@ -186,9 +180,9 @@ header {
     margin-right: 240px;
     margin-top: -270px;
     font-size: 17px;
-    }
+    }}
 
 .enlace-personalizado {
     color: #F58B11; /* Color para el enlace no visitado */
     text-decoration: none;
-}
+}}
